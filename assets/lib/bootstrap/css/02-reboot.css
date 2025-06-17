@@ -1,0 +1,42 @@
+/*!
+ * Bootstrap v5.3.0 Reboot
+ * Base styles and resets
+ *
+ * This file is part of the organized Bootstrap structure.
+ * Since we have local Bootstrap files, this file can be used for custom reboot overrides.
+ */
+
+/*
+ * Custom overrides for Bootstrap reboot styles
+ * These will be applied after the main Bootstrap styles are loaded
+ * Add your custom reboot styles below
+ */
+
+/* Example: Custom body styles */
+/*
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f9fa;
+}
+*/
+
+/* Example: Custom heading styles */
+/*
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #343a40;
+}
+*/
+
+/* Example: Custom link styles */
+/*
+a {
+  color: #dc3545;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c82333;
+  text-decoration: underline;
+}
+*/

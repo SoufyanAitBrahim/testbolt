@@ -1,0 +1,114 @@
+/*!
+ * Bootstrap v5.3.0 (https://getbootstrap.com/)
+ * Copyright 2011-2023 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * 
+ * Complete Bootstrap CSS - Local Version
+ * This file imports the minified Bootstrap and allows for easy customization
+ */
+
+/* Import the complete Bootstrap CSS */
+@import url('./bootstrap.min.css');
+
+/* 
+ * Custom Bootstrap Variable Overrides
+ * Add your custom CSS variables here to override Bootstrap defaults
+ * These will take precedence over the imported Bootstrap styles
+ */
+
+:root {
+  /* Example: Custom primary color */
+  /* --bs-primary: #dc3545; */
+  
+  /* Example: Custom font family */
+  /* --bs-font-sans-serif: 'Montserrat', system-ui, -apple-system, sans-serif; */
+  
+  /* Example: Custom border radius */
+  /* --bs-border-radius: 0.5rem; */
+  
+  /* Example: Custom box shadows */
+  /* --bs-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); */
+  /* --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); */
+  /* --bs-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175); */
+}
+
+/* 
+ * Custom Component Overrides
+ * Add your custom styles for Bootstrap components here
+ */
+
+/* Example: Custom button styles */
+/*
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+*/
+
+/* Example: Custom card styles */
+/*
+.card {
+  border-radius: var(--bs-border-radius);
+  box-shadow: var(--bs-box-shadow);
+}
+*/
+
+/* Example: Custom navbar styles */
+/*
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+*/
+
+/* 
+ * Utility Classes
+ * Add your custom utility classes here
+ */
+
+/* Example: Custom spacing utilities */
+/*
+.p-6 {
+  padding: 3rem !important;
+}
+
+.m-6 {
+  margin: 3rem !important;
+}
+*/
+
+/* Example: Custom text utilities */
+/*
+.text-shadow {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+*/
+
+/* 
+ * Responsive Overrides
+ * Add your responsive customizations here
+ */
+
+/* Example: Mobile-specific overrides */
+/*
+@media (max-width: 767.98px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+*/
+
+/* Example: Desktop-specific overrides */
+/*
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+*/
